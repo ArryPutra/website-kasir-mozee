@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:wght@500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+}
+#divider {
+    width: 80%;
+    height: 2px;
+    background: #DE0000;
+}
+.divider-gray {
+    width: 100%;
+    height: 2px;
+    background-color: #f2f2f2;
+    margin: 1rem 0;
+    color: none;
+}
+
+.layout {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    transition: 300ms;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-layout {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.red-btn {
+    background: red;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 150ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    font-size: 15px;
+    white-space: nowrap;
+}
+.red-btn:hover {
+    background: #DE0000;
+}
+.red-btn:focus {
+    outline: solid 4px #FEBFBF;
+}
+.blue-btn {
+    background: #0150F2;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 150ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    white-space: nowrap;
+}
+.blue-btn:hover {
+    background: #013DD1;
+}
+.blue-btn:focus {
+    outline: solid 4px #BFD3FB;
+}
+.disabled-btn {
+    background: #ccc;
+    color: #666;
+    width: 100%;
+    border-radius: 8px;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 150ms;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    font-size: 15px;
+}
+
+.chips-btn-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.chip-btn {
+    background: #f2f2f2;
+    border-radius: 16px;
+    border: none;
+    padding: 0.4rem 1rem;
+    transition: 150ms;
+    cursor: pointer;
+    height: 2.5rem;
+}
+.chip-btn:hover {
+    background: #ccc;
+}
+.chip-btn:focus {
+    outline: solid 4px #f2f2f2;
+}
+.chip-btn-active {
+    background: #0150F2;
+    border-radius: 16px;
+    border: none;
+    padding: 0.4rem 1rem;
+    transition: 150ms;
+    cursor: pointer;
+    color: white;
+}
+.chip-btn-active:hover {
+    background: #013DD1;
+}
+.chip-btn-active:focus {
+    outline: solid 4px #BFD3FB;
+}
+
+.search {
+    border: none;
+    border-radius: 8px;
+    padding: 0 0.5rem;
+    background: #f2f2f2;
+    transition: 75ms;
+    height: 2.5rem;
+}
+.search:focus {
+    outline: solid 4px #CBE3FF;
+}
+
+.card-group {
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 260px;
+}
+.card div {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    width: 200px;
+}

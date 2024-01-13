@@ -1,0 +1,60 @@
+aside {
+    background: red;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    transition: 300ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside .menu-main {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside .menu {
+    background: #DE0000;
+    width: fit-content;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+aside .menu svg {
+    width: 2.5rem;
+    color: white;
+}
+.menu-active {
+    background: #DE0000;
+    width: 80%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    margin: 0.5rem 0px;
+    gap: 1rem;
+}
+.menu-nonactive {
+    width: 80%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    margin: 0.5rem 0px;
+    opacity: 0.8;
+    gap: 1rem;
+}
+#menuTittle {
+    color: white;
+}
+.menu-nonactive svg, .menu-active svg {
+    color: white;
+    width: 2rem;
+}
